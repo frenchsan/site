@@ -15,10 +15,6 @@ body {
 #services {
   font-family: 'Special Elite', cursive;
 }
-.bipbip {
-  display: flex;
-  align-items: center;
-}
 hr {
   border-color: #455354;
   border-width: 3px;
@@ -426,4 +422,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+footer {
+  background-color: #222222;
+  color: white;
+  padding: 10px;
 }
