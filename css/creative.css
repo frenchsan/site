@@ -428,3 +428,6 @@ footer {
   color: white;
   padding: 10px;
 }
+#success_message {
+  display: none;
+}

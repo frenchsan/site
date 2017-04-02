@@ -26,6 +26,7 @@
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -62,7 +63,7 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                     <li>
+                    <li>
                         <a class="page-scroll" href="#faq">FAQ</a>
                     </li>
                 </ul>
@@ -78,7 +79,7 @@
                 <h1 id="homeHeading">Escape Game</h1>
                 <hr>
                 <h2>Fort Lachaux - Pays de Montbéliard</h2>
-                <p>L'escape game (ou jeux d'évasion en réél) est un loisir pour tous, ou votre objectif est de résoudre des énigmes et sortir de la salle dans un temps limité.  </p>
+                <p>L'escape game (ou jeux d'évasion en réél) est un loisir pour tous, ou votre objectif est de résoudre des énigmes et sortir de la salle dans un temps limité. </p>
                 <a href="#jeu" class="btn btn-primary btn-xl page-scroll">Découvrir l'escape game</a>
             </div>
         </div>
@@ -91,7 +92,7 @@
                     <h2 class="section-heading">Comment ça marche ?</h2>
                     <hr class="light">
                     <p class="text-faded">L'escape game (ou jeu d'évasion grandeur nature) est un nouveau concept d'aventure reel et interactif accessible à tous.</p>
-                    <p  class="text-faded"> Le concept: vous et votre équipe sont enfermé dans une salle thématisé dans laquelle vous avez un temps limité pour résoudre énigme, puzzle et trouver les clés et combinaisons afin de vous échaper avant que le temps ne soit écoulé. L'escape game "Les disparus du Fort Lachaux" créé par l'equipe Bureau 401, vous attend avec vos amis, famille et collègues de travail</p>
+                    <p class="text-faded"> Le concept: vous et votre équipe sont enfermé dans une salle thématisé dans laquelle vous avez un temps limité pour résoudre énigme, puzzle et trouver les clés et combinaisons afin de vous échaper avant que le temps ne soit écoulé. L'escape game "Les disparus du Fort Lachaux" créé par l'equipe Bureau 401, vous attend avec vos amis, famille et collègues de travail</p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Découvrir l'histoire</a>
                 </div>
             </div>
@@ -275,24 +276,82 @@
     <section class="bg-primary" id="contact">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3 col-md-3 text-center">
-                    <div class="service-box">
-                        <ul class="text-center">
-                            <li class="wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-map-marker"></i>
-                                <p>New York, NY 10012, USA</p>
-                            </li>
+                <div class="col-lg-3 col-md-3">
 
-                            <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-phone"></i>
-                                <p>+ 01 234 567 89</p>
-                            </li>
+                    <!--<div class="container">-->
 
-                            <li class="wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-envelope"></i>
-                                <p>contact@mdbootstrap.com</p>
-                            </li>
-                        </ul>
+                        <form class="well form-horizontal" action=" " id="contact_form">
+                            <fieldset>
+
+                                <!-- Form Name -->
+                                <legend>Contactez nous !</legend>
+
+                                <!-- Text input-->
+
+
+                                <div class="form-group">
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input name="first_name" placeholder="Nom" class="form-control" type="text" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+
+                                <div class="form-group">
+
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input name="last_name" placeholder="Prenom" class="form-control" type="text" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                            <input id="mail" name="email" placeholder="E-Mail" class="form-control" type="email" >
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Text area -->
+
+                                <div class="form-group">
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                            <textarea class="form-control" name="description" placeholder="Votre texte..." required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Success message -->
+                                <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+                                <!-- Button -->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label"></label>
+                                    <div class="col-md-4">
+                                        <button type="submit" class="btn btn-warning">Envoyer <span class="glyphicon glyphicon-send"></span></button>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
                     </div>
-                </div>
-                <div class="col-lg-9 col-md-9 text-center">
+                <!--</div>-->
+                <!-- /.container -->
+
+
+
+                <div class="col-lg-9 col-md-9">
 
                     <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 500px"></div>
 
@@ -361,11 +420,11 @@
 
     <script>
         function init_map() {
-            var var_location = new google.maps.LatLng(47.5200238,6.8275971);
+            var var_location = new google.maps.LatLng(47.5200238, 6.8275971);
 
             var var_mapoptions = {
                 center: var_location,
-                zoom: 14
+                zoom: 28
             };
 
             var var_marker = new google.maps.Marker({
@@ -382,8 +441,23 @@
         }
 
         google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+
+    <script>
+
+    var email = document.getElementById("mail");
+        email.addEventListener("keyup", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("Un effort pour un email valide :) ");
+  } else {
+    email.setCustomValidity("");
+  }
+});
 
     </script>
+
+
+
 
 </body>
 
