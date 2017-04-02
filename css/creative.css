@@ -15,6 +15,9 @@ body {
 #services {
   font-family: 'Special Elite', cursive;
 }
+.imgclip {
+  clip-path: rect(10px, 20px, 30px, 40px);
+}
 hr {
   border-color: #455354;
   border-width: 3px;
