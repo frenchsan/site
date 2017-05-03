@@ -3,6 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/*.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: @theme-primary;
+}*/
 html,
 body {
   height: 100%;
